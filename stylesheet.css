@@ -11,13 +11,12 @@ html {
 }
 
 body {
-    background: rgb(255, 255, 255);
+    background: rgb(22, 30, 58);
     font-family: "Poppins", sans-serif;
 }
 
 div {
     color: rgba(255, 255, 255, 0.895);
-    position: center;
 }
 
 /* ============================================
@@ -27,14 +26,14 @@ p {
     padding-top: 0%;
     font-size: 18px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(0, 0, 0);
+    color: rgb(195, 210, 245);
     margin-top: 3%;
 }
 
 span {
     font-size: 85%;
     font-weight: normal;
-    color: rgb(0, 0, 0);
+    color: rgb(195, 210, 245);
 }
 
 .italics {
@@ -48,11 +47,11 @@ span {
     font-weight: 600;
     text-align: center;
     margin-bottom: 1%;
-    color: rgb(60, 80, 120);
+    color: rgb(140, 175, 240);
 }
 
 .sub-title {
-    color: rgb(60, 80, 120);
+    color: rgb(140, 175, 240);
     font-weight: 600;
     font-size: 1.5rem;
     text-align: center;
@@ -65,13 +64,13 @@ span {
     vertical-align: middle;
     text-align: center;
     align-items: center;
-    color: rgb(60, 80, 120);
+    color: rgb(140, 175, 240);
 }
 
 .job-title {
     font-size: 1.32rem;
     margin: 0;
-    color: rgb(60, 80, 120);
+    color: rgb(140, 175, 240);
     text-align: center;
     margin-left: 5px;
 }
@@ -80,7 +79,7 @@ span {
     font-size: 1rem;
     text-align: center;
     margin-top: 5px;
-    color: rgb(80, 100, 140);
+    color: rgb(120, 155, 215);
 }
 
 .section__text__p1 {
@@ -134,7 +133,7 @@ section {
    ============================================ */
 #desktop-nav {
     width: 100%;
-    background-color: rgb(42, 59, 113);
+    background-color: rgb(20, 28, 68);
     margin: 0;
     padding-bottom: clamp(3rem, 5%, 4rem);
     box-sizing: border-box;
@@ -178,10 +177,10 @@ nav {
     text-align: center;
     flex: 0 0 auto;
     transition: transform 0.3s ease;
-    border: 2px solid #4a6ba8;
-    box-shadow: 4px 4px 0 #4a6ba8;
+    border: 2px solid #3a5898;
+    box-shadow: 4px 4px 0 #2a4878;
     margin: 2px;
-    background-color: #a8c0e8;
+    background-color: rgb(28, 42, 95);
     min-width: clamp(60px, 10vw, 150px);
     max-width: 180px;
     white-space: nowrap;
@@ -189,15 +188,15 @@ nav {
 
 .nav-links li:hover {
     transform: scale(1.1);
-    background-color: #8fb0e0;
+    background-color: rgb(42, 60, 120);
 }
 
 .nav-links li:nth-child(odd) {
-    background-color: #a8c0e8;
+    background-color: rgb(28, 42, 95);
 }
 
 .nav-links li:nth-child(even) {
-    background-color: #8fb0e0;
+    background-color: rgb(22, 35, 82);
 }
 
 .nav-links li a {
@@ -244,7 +243,7 @@ nav {
 .hamburger-icon span {
     width: 100%;
     height: 2px;
-    background-color: rgb(70, 90, 150);
+    background-color: rgb(140, 175, 240);
     transition: all 0.3s ease-in-out;
 }
 
@@ -264,7 +263,7 @@ nav {
     position: absolute;
     top: 100%;
     right: 0;
-    background-color: rgb(241, 243, 246);
+    background-color: rgb(16, 22, 52);
     width: fit-content;
     max-height: 0;
     overflow: hidden;
@@ -280,7 +279,7 @@ nav {
     padding: 10px;
     text-align: center;
     font-size: 1.5rem;
-    color: rgb(70, 90, 150);
+    color: rgb(140, 175, 240);
     text-decoration: none;
     transition: all 0.3s ease-in-out;
 }
@@ -301,17 +300,11 @@ nav {
 
 .intro-name {
     margin: 0%;
-    position: center;
 }
 
 .name {
     line-height: 1.5;
-    position: center;
-    background-color: rgb(42, 59, 113);
-}
-
-.profile-header {
-    position: center;
+    background-color: rgb(20, 28, 68);
 }
 
 .profile-header,
@@ -320,10 +313,8 @@ nav {
 }
 
 .name-description {
-    box-sizing: box;
     height: 70px;
     width: 100%;
-    position: center;
     display: flex;
     color: rgb(70, 90, 150);
 }
@@ -338,7 +329,6 @@ nav {
     overflow: hidden;
     width: 100%;
     text-align: center;
-    position: center;
     color: white;
 }
 
@@ -347,11 +337,10 @@ nav {
 }
 
 l1 {
-    font-size: 20px;
+    font-size: 26px;
     display: block;
-    height: 50px;
+    height: 60px;
     width: 100%;
-    position: center;
     animation: spin_words 7s infinite;
     padding-bottom: 20px;
     text-align: center;
@@ -399,8 +388,12 @@ l1 {
     margin-bottom: 3%;
     width: 90%;
     height: auto;
-    background-color: rgba(242, 243, 245, 0.8);
-    color: #000;
+    background-color: rgba(12, 18, 48, 0.92);
+    color: rgb(195, 210, 245);
+}
+
+.description p {
+    font-size: 22px;
 }
 
 /* ============================================
@@ -530,20 +523,21 @@ l1 {
     flex-direction: column;
     align-items: center;
     margin: 0 auto 2%;
-    background: linear-gradient(90deg, rgb(230, 240, 255), rgb(220, 235, 255));
-    color: rgb(1, 0, 9);
+    background: linear-gradient(90deg, rgb(18, 28, 62), rgb(14, 22, 52));
+    color: rgb(195, 210, 245);
     padding: 2.5em;
     box-sizing: border-box;
     border: 4px solid #5a7bc8;
     box-shadow: 8px 8px 0 #4a6ba8;
 }
 
-.details-container:hover .article-container {
-    display: block;
-}
-
+.details-container:hover .article-container,
 .details-container.active .article-container {
-    display: block;
+    max-height: 600px;
+    opacity: 1;
+    padding: 2em;
+    border-width: 2px;
+    margin: 1em auto;
 }
 
 .title-container {
@@ -556,13 +550,16 @@ l1 {
 
 .article-container {
     width: 95%;
-    display: none;
-    padding: 2em;
-    color: rgb(30, 30, 30);
-    border: 2px solid #5a7bc8;
-    background-color: rgb(248, 250, 255);
-    margin: 1em auto;
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    padding: 0 2em;
+    border: 0px solid #5a7bc8;
+    background-color: rgb(12, 18, 45);
+    margin: 0 auto;
     border-radius: 15px;
+    color: rgb(195, 210, 245);
+    transition: max-height 0.45s ease, opacity 0.35s ease, padding 0.35s ease, border-width 0.35s ease, margin 0.35s ease;
 }
 
 .article {
@@ -570,19 +567,19 @@ l1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
-    color: rgb(30, 30, 30);
+    color: rgb(195, 210, 245);
     font-size: 1em;
 }
 
 .article p {
-    font-size: 0.9em;
+    font-size: 1em;
 }
 
 .job-description {
     width: 100%;
     margin-top: 2%;
-    color: rgb(60, 70, 100);
-    font-size: 0.85em;
+    color: rgb(170, 190, 230);
+    font-size: 0.95em;
     line-height: 1.8;
     margin-bottom: 1.5em;
     /* padding: 0 1em; */
@@ -673,8 +670,8 @@ l1 {
 }
 
 .graph li {
-    background: linear-gradient(90deg, rgb(180, 200, 240) 0%, rgb(120, 160, 230) 100%);
-    color: rgb(1, 0, 9);
+    background: linear-gradient(90deg, rgb(28, 44, 108) 0%, rgb(20, 34, 90) 100%);
+    color: rgb(195, 210, 245);
     padding: 0.4em 1em;
     margin: 0.5em 0;
     box-sizing: border-box;
@@ -689,7 +686,7 @@ l1 {
 .graph li::before {
     font-family: 'Press Start 2P', monospace, sans-serif;
     font-size: 0.95em;
-    color: #5a7bc8;
+    color: rgb(140, 175, 240);
     content: attr(data-score);
     float: right;
 }
@@ -730,8 +727,8 @@ l1 {
 }
 
 .project {
-    background: linear-gradient(90deg, rgb(230, 240, 255), rgb(200, 220, 250));
-    color: rgb(60, 80, 120);
+    background: linear-gradient(90deg, rgb(18, 28, 62), rgb(14, 22, 52));
+    color: rgb(140, 175, 240);
     padding: 1.5em;
     text-align: center;
     box-sizing: border-box;
@@ -743,25 +740,26 @@ l1 {
 }
 
 .project:hover {
-    background: linear-gradient(90deg, rgb(210, 230, 255), rgb(180, 210, 250));
+    background: linear-gradient(90deg, rgb(26, 40, 85), rgb(20, 32, 72));
 }
 
 .project.active:hover {
-    background: linear-gradient(90deg, rgb(210, 230, 255), rgb(180, 210, 250));
+    background: linear-gradient(90deg, rgb(26, 40, 85), rgb(20, 32, 72));
 }
 
 .project-details {
-    display: none;
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
     text-align: left;
-    padding-top: 1em;
+    transition: max-height 0.4s ease, opacity 0.3s ease, padding 0.3s ease;
 }
 
-.project:hover .project-details {
-    display: block;
-}
-
+.project:hover .project-details,
 .project.active .project-details {
-    display: block;
+    max-height: 400px;
+    opacity: 1;
+    padding-top: 1em;
 }
 
 /* ============================================
@@ -788,8 +786,8 @@ l1 {
 }
 
 .course {
-    background: linear-gradient(90deg, rgb(230, 240, 255), rgb(200, 220, 250));
-    color: rgb(60, 80, 120);
+    background: linear-gradient(90deg, rgb(18, 28, 62), rgb(14, 22, 52));
+    color: rgb(140, 175, 240);
     padding: 1.5em;
     text-align: center;
     box-sizing: border-box;
@@ -801,25 +799,26 @@ l1 {
 }
 
 .course:hover {
-    background: linear-gradient(90deg, rgb(210, 230, 255), rgb(180, 210, 250));
+    background: linear-gradient(90deg, rgb(26, 40, 85), rgb(20, 32, 72));
 }
 
 .course.active:hover {
-    background: linear-gradient(90deg, rgb(210, 230, 255), rgb(180, 210, 250));
+    background: linear-gradient(90deg, rgb(26, 40, 85), rgb(20, 32, 72));
 }
 
 .course-details {
-    display: none;
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
     text-align: left;
-    padding-top: 1em;
+    transition: max-height 0.4s ease, opacity 0.3s ease, padding 0.3s ease;
 }
 
-.course:hover .course-details {
-    display: block;
-}
-
+.course:hover .course-details,
 .course.active .course-details {
-    display: block;
+    max-height: 400px;
+    opacity: 1;
+    padding-top: 1em;
 }
 
 /* ============================================
